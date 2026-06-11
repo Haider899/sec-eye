@@ -111,7 +111,7 @@ pyinstaller --onefile --noconsole keylogger_pro.py
 
 ## 📸 Screenshots
 
-| Active Email Logs Delivery | Automated Email Attachments | Real-time Dashboard & Diagnostics |
+| Active Email Logs Delivery | Automated Email Attachments | Real-time Dashboard |
 | :---: | :---: | :---: |
 | ![S1](S1.png) | ![S2](S2.png) | ![S3](S3.png) |
 
