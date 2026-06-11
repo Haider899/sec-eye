@@ -63,6 +63,7 @@ venv.bak/
 # Project-specific logs and data
 logs.txt
 key_logs.txt
+logs.json
 screenshot_*.png
 keylogger.db
 

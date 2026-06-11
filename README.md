@@ -18,6 +18,7 @@
 *   **Time-Lapse Screenshot Capture:** Automatically records screen activity at configurable intervals to capture the context of active sessions.
 *   **System Status Telemetry:** Reports live performance stats including CPU, RAM, and Disk space utilization.
 *   **Network Intelligence:** Retrieves both local and public IP addresses to track network location changes.
+*   **Live Web Dashboard:** Local Flask-based dashboard showing real-time endpoint telemetry, keystroke logs, and status diagnostics.
 *   **Premium HTML Reporting:** Automatically compiles data into a stunning, responsive HTML report (complete with modern CSS gradients, cards, and system status badges) sent directly via email.
 *   **Console Obfuscation:** Runs silently in the background on Windows environments by detaching console windows.
 
@@ -84,11 +85,20 @@ BUFFER_SIZE = 100              # Keystroke buffer limit before flushing
 
 ## 💻 Usage
 
-To launch the monitoring agent:
+To launch the standard security monitoring agent (with email alerts):
 
 ```bash
 python keylogger_pro.py
 ```
+
+To launch the monitoring agent with a live Web-Dashboard:
+
+```bash
+pip install flask
+python keylogger_web.py
+```
+
+Once running, navigate to `http://127.0.0.1:5000` to view live reports.
 
 To build a standalone executable using PyInstaller:
 
@@ -101,7 +111,7 @@ pyinstaller --onefile --noconsole keylogger_pro.py
 
 ## 📸 Screenshots
 
-| System Report Interface | Active Log Dashboard | Network Intelligence Card |
+| Active Email Logs Delivery | Automated Email Attachments | Real-time Dashboard & Diagnostics |
 | :---: | :---: | :---: |
 | ![S1](S1.png) | ![S2](S2.png) | ![S3](S3.png) |
 
