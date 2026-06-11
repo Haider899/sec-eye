@@ -81,12 +81,6 @@ RECEIVER_EMAIL = "receiver_email@domain.com"
 SCREENSHOT_INTERVAL = 60      # Screenshot interval in seconds
 EMAIL_INTERVAL = 300           # Email reporting interval in seconds
 BUFFER_SIZE = 100              # Keystroke buffer limit before flushing
-```
-
-> [!NOTE]  
-> Since `config.py` contains sensitive credentials, it is automatically ignored by Git using `.gitignore` to prevent accidental public disclosure.
-
----
 
 ## 💻 Usage
 
